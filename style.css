@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+}
+
+.bar {
+  display: block;
+  padding: 5px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.search input {
+  padding: 3px;
+  padding-left: 20px;
+  width: 110px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+  position: absolute;
+  right: 10px;
+}
+
+.search .ui-icon.ui-icon-search {
+  color: #ccc;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 12px;
+  right: 125px
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.list li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.list .img {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  width: 320px;
+  height: 320px;
+}
+
+.list .title {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+
+.list .description {
+  font-size: 0.65em;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+}
+
+.list .buttons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.list li .ui-button-icon-only {
+  width: 20px;
+  height: 20px;
+  padding: 0.4em;
+}
+
+.editTable {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #eee;
+  padding: 3px;
+  margin: 0 -2px;
+}
