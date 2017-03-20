@@ -1,0 +1,65 @@
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+<body>
+<div id="contacts">
+  <span class="search bar ui-widget">
+    <input type="text" id="search-field" placeholder="Filter" />
+    <span class="ui-icon ui-icon-search"></span>
+  </span>
+  <ul id="sortable" class="list">
+    <li data-id="1">
+      <img src="https://lorempixel.com/100/100/nature/1/" class="img">
+      <h3 class="title">The Grasslands</h3>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. .</p>
+      <span class="buttons">
+      <button class="edit-item-btn">Edit</button>
+      <button class="remove-item-btn">Remove</button>
+      </span>
+    </li>
+    <li data-id="2">
+      <img src="https://lorempixel.com/100/100/nature/2/" class="img">
+      <h3 class="title">Paradise Found</h3>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <span class="buttons">
+      <button class="edit-item-btn">Edit</button>
+      <button class="remove-item-btn">Remove</button>
+      </span>
+    </li>
+    <li data-id="3">
+      <img src="https://lorempixel.com/100/100/nature/3/" class="img">
+      <h3 class="title">Smoke On The Water</h3>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <span class="buttons">
+      <button class="edit-item-btn">Edit</button>
+      <button class="remove-item-btn">Remove</button>
+      </span>
+    </li>
+    <li data-id="4">
+      <img src="https://lorempixel.com/100/100/nature/4/" class="img">
+      <h3 class="title">Headline</h3>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <span class="buttons">
+      <button class="edit-item-btn">Edit</button>
+      <button class="remove-item-btn">Remove</button>
+      </span>
+    </li>
+  </ul>
+  <table>
+    <td class="img">
+      <input type="hidden" id="id-field" />
+      <input type="text" id="img-field" placeholder="Image URL Path" />
+    </td>
+    <td class="">
+      <input type="text" id="title-field" placeholder="Title" />
+    </td>
+    <td class="description">
+      <input type="text" id="description-field" placeholder="Description" />
+    </td>
+    <td class="add">
+      <button id="add-btn">Add</button>
+      <button id="edit-btn">Edit</button>
+    </td>
+  </table>
+</div>
+</body>
