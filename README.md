@@ -1,2 +1,2 @@
 # Listjs
-Sortable thumbnail with jquery
+this is sortable thumbnail list with jquery using ListJs and localstorage.
